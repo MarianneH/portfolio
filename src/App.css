@@ -1,0 +1,10 @@
+:root {
+  --base-font: "Roboto", sans-serif;
+  --background-color: #ffffff;
+  --first-color: #2ec4b6;
+  --second-color: #f7efe6;
+  --third-color: #e5e5f7;
+}
+.highlight {
+  color: var(--first-color);
+}
