@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Navigation.module.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
+import Button from "../../components/Button/Button";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,18 +22,35 @@ function Navigation() {
           )}
         </div>
       </div>
-
-      <ul className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
-        <li>
-          <p onClick={() => setIsMenuOpen(!isMenuOpen)}>Home</p>
-        </li>
-        <li>
-          <p onClick={() => setIsMenuOpen(!isMenuOpen)}>About</p>
-        </li>
-        <li>
-          <p onClick={() => setIsMenuOpen(!isMenuOpen)}>Contact</p>
-        </li>
-      </ul>
+      <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
+        <ul className={styles.link_list}>
+          <li>
+            <p
+              className={styles.links}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              Home
+            </p>
+          </li>
+          <li>
+            <p
+              className={styles.links}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              About
+            </p>
+          </li>
+          <li>
+            <p
+              className={styles.links}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              Contact
+            </p>
+          </li>
+        </ul>
+        <Button button_text="Get my Resume" />
+      </div>
     </nav>
   );
 }
