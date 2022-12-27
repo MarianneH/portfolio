@@ -1,0 +1,33 @@
+.burger_menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .menu.open {
+    display: block;
+  }
+}

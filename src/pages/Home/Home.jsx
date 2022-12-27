@@ -3,15 +3,16 @@ import Projects from "../../sections/Projects/Projects";
 import Welcome from "../../sections/Welcome/Welcome";
 import Work from "../../sections/Work/Work";
 import Headlines from "../../components/Headlines/Headlines";
+import Navigation from "../../components/Navigation/Navigation";
 
 function Home() {
   return (
     <>
+      <Navigation />
       <Welcome />
       <About />
       <Projects />
       <Work />
-      <Headlines headline_text="this is it" />
     </>
   );
 }
