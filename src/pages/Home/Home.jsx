@@ -2,7 +2,7 @@ import About from "../../sections/About/About";
 import Projects from "../../sections/Projects/Projects";
 import Welcome from "../../sections/Welcome/Welcome";
 import Work from "../../sections/Work/Work";
-import Button from "../../components/Button/Button";
+import Headlines from "../../components/Headlines/Headlines";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <About />
       <Projects />
       <Work />
-      <Button button_text="Get in touch" />
+      <Headlines headline_text="this is it" />
     </>
   );
 }

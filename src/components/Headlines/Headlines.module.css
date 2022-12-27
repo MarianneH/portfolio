@@ -1,0 +1,12 @@
+.text {
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid var(--first-color);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.text span {
+  background: #fff;
+  padding: 0 10px;
+}
