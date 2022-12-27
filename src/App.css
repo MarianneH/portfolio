@@ -4,6 +4,9 @@
   --first-color: #2ec4b6;
   --second-color: #f7efe6;
   --third-color: #e5e5f7;
+  /* color bookmarks https://designshack.net/articles/trends/best-website-color-schemes/ */
+  --one: #abf62d;
+  --two: #d6a3fb;
 }
 .highlight {
   color: var(--first-color);
