@@ -3,6 +3,7 @@ import styles from "./Navigation.module.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";
+import Logo from "../../assets/logoM.svg";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ function Navigation() {
   return (
     <nav>
       <div className={styles.container}>
-        <div className={styles.logo}>Logo</div>
+        {/* <Logo className={styles.logo} /> */}
         <div
           className={styles.burger_menu}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
