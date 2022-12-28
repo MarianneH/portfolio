@@ -26,28 +26,28 @@ function Navigation() {
       <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
         <ul className={styles.link_list}>
           <li>
-            <p
+            <div
               className={styles.links}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               Home
-            </p>
+            </div>
           </li>
           <li>
-            <p
+            <div
               className={styles.links}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               About
-            </p>
+            </div>
           </li>
           <li>
-            <p
+            <div
               className={styles.links}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               Contact
-            </p>
+            </div>
           </li>
         </ul>
         <Button className={styles.button} button_text="Get my Resume" />
