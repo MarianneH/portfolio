@@ -1,0 +1,91 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: var(--first-color);
+}
+
+.container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  margin: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 4;
+}
+.burger_logo {
+  color: var(--first-color);
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+.burger_menu {
+  display: block;
+  cursor: pointer;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  justify-content: flex-start;
+  transform: translateX(110vw);
+  position: absolute;
+  background-color: var(--second-background);
+  z-index: 1;
+  height: 100vh;
+}
+
+.menu.open {
+  width: 70vw;
+  transform: translateX(30vw);
+  transition: transform 0.5s;
+}
+.link_list {
+  list-style: none;
+  margin: 3rem;
+}
+.links {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--second-background);
+}
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+  .menu {
+    background-color: var(--first-background);
+    transform: translateX(0vw);
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    height: 5rem;
+  }
+  .menu.open {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    order: 2;
+  }
+  .links {
+    background-color: var(--first-background);
+  }
+  .button {
+    order: 1;
+  }
+}
