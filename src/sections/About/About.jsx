@@ -1,5 +1,6 @@
 import styles from "./about.module.css";
 import Headlines from "../../components/Headlines/Headlines";
+import SkillList from "../../components/SkillList/SkillList";
 
 function About() {
   return (
@@ -36,6 +37,7 @@ function About() {
         </p>
         <div className={styles.list}>
           <p>These are the technologies that I've been working with:</p>
+          <SkillList />
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
