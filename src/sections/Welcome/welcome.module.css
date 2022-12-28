@@ -1,4 +1,41 @@
 .container {
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.welcome_text {
+  margin-bottom: 2rem;
+}
+.salutation {
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+.name {
+  font-size: 2rem;
+  color: var(--third-color);
+  margin-bottom: 1rem;
+}
+.main_tag {
+  color: var(--third-color);
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.main_tag span {
+  text-decoration: solid;
+  color: var(--first-color);
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .welcome_text {
+    margin-bottom: 2rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .main_tag {
+    font-size: 3rem;
+  }
 }
