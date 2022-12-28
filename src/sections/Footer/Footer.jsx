@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div>
       <Socials />
-      <div>
+      <div className={styles.credits}>
         Design inspiration for this portfolio website:{" "}
         <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer">
           brittanychiang.com
