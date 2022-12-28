@@ -38,12 +38,6 @@ function About() {
         <div className={styles.list}>
           <p>These are the technologies that I've been working with:</p>
           <SkillList />
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Express</li>
-          </ul>
         </div>
       </div>
     </div>

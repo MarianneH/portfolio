@@ -1,0 +1,10 @@
+.container {
+}
+.icon {
+  color: var(--first-color);
+  margin-right: 0.5rem;
+}
+
+.skill {
+  margin-bottom: 0.1rem;
+}
