@@ -1,13 +1,13 @@
 :root {
   --base-font: "Roboto", sans-serif;
   --background-color: #ffffff;
-  --first-color: #2ec4b6;
+  --first-color: #64ffda;
   --first-background: #0a192f;
   --second-background: #112240;
   --second-color: #f7efe6;
   --third-color: #e5e5f7;
-  --icon-filter: invert(61%) sepia(21%) saturate(1414%) hue-rotate(125deg)
-    brightness(107%) contrast(77%);
+  --icon-filter: invert(79%) sepia(30%) saturate(679%) hue-rotate(107deg)
+    brightness(109%) contrast(101%);
   /* color bookmarks https://designshack.net/articles/trends/best-website-color-schemes/ */
   --one: #abf62d;
   --two: #d6a3fb;
