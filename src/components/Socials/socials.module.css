@@ -31,3 +31,24 @@
   color: var(--first-color);
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .container {
+    position: unset;
+    bottom: auto;
+    right: auto;
+    z-index: 0;
+    width: auto;
+  }
+  .next {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container::after {
+    display: none;
+  }
+  .socials {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1.5rem;
+  }
+}
