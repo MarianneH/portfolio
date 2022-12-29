@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&family=Open+Sans&family=Roboto:ital,wght@2,100&display=swap");
+
 :root {
   --base-font: "Roboto", sans-serif;
   --background-color: #ffffff;
@@ -6,6 +8,7 @@
   --second-background: #112240;
   --second-color: #f7efe6;
   --third-color: #e5e5f7;
+  --hover_background: rgba(229, 229, 247, 0.1);
   --icon-filter: invert(79%) sepia(30%) saturate(679%) hue-rotate(107deg)
     brightness(109%) contrast(101%);
   /* color bookmarks https://designshack.net/articles/trends/best-website-color-schemes/ */
@@ -17,8 +20,7 @@
 }
 
 * {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: var(--base-font);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -39,6 +41,8 @@ h2 {
 
 h3 {
   font-size: 1.125rem;
+  color: var(--first-color);
+  font-weight: 400;
 }
 
 p {
@@ -47,4 +51,5 @@ p {
   opacity: 0.8;
   margin-bottom: 1rem;
   line-height: 1.4;
+  font-weight: 200;
 }
