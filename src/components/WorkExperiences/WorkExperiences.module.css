@@ -33,3 +33,6 @@
 .company {
   color: var(--third-color);
 }
+.duration {
+  color: var(--first-color);
+}

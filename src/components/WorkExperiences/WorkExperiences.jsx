@@ -34,6 +34,7 @@ function WorkExperiences() {
             {experiences[selected].company}
           </span>
         </h3>
+        <p className={styles.duration}>{experiences[selected].duration}</p>
         <p className={styles.description}>
           {experiences[selected].description}
         </p>
