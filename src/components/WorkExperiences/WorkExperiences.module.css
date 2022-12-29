@@ -23,6 +23,13 @@
   color: var(--first-color);
   background-color: var(--hover_background);
 }
-.description {
-  padding: 0 0.5rem;
+
+.details {
+  padding: 1rem 0.5rem;
+}
+.title {
+  margin-bottom: 1rem;
+}
+.company {
+  color: var(--third-color);
 }

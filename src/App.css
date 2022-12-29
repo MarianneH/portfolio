@@ -41,6 +41,8 @@ h2 {
 
 h3 {
   font-size: 1.125rem;
+  color: var(--first-color);
+  font-weight: 400;
 }
 
 p {
@@ -49,4 +51,5 @@ p {
   opacity: 0.8;
   margin-bottom: 1rem;
   line-height: 1.4;
+  font-weight: 200;
 }

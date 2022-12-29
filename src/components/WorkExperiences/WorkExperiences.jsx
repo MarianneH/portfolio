@@ -5,15 +5,11 @@ import workexp from "./WorkExp_object.json";
 function WorkExperiences() {
   const [experiences, setExperiences] = useState(workexp);
   const [selected, setSelected] = useState(workexp.length - 1);
-  const [text, setText] = useState(null);
 
   function handleClick(index) {
     setSelected(index);
   }
 
-  useEffect(() => {
-    setText(experiences[selected].description);
-  }, [selected, experiences]);
   return (
     <div className={styles.container}>
       <div className={styles.exp_container}>
@@ -21,7 +17,9 @@ function WorkExperiences() {
           return (
             <p
               key={index}
-              className={styles.exp_name}
+              className={`${styles.exp_name} ${
+                index === selected && styles.selected
+              }`}
               onClick={(event) => handleClick(index)}
             >
               {el.name}
@@ -29,7 +27,17 @@ function WorkExperiences() {
           );
         })}
       </div>
-      <p className={styles.description}>{text}</p>
+      <div className={styles.details}>
+        <h3 className={styles.title}>
+          {experiences[selected].name} @{" "}
+          <span className={styles.company}>
+            {experiences[selected].company}
+          </span>
+        </h3>
+        <p className={styles.description}>
+          {experiences[selected].description}
+        </p>
+      </div>
     </div>
   );
 }
