@@ -1,3 +1,7 @@
+/* .container {
+  position: fixed;
+} */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -11,7 +15,7 @@ nav {
   color: var(--first-color);
 }
 
-.container {
+.navigation {
   display: flex;
   background-color: rgba(0, 0, 0, 0);
   width: 100vw;
@@ -78,6 +82,7 @@ nav {
     flex-direction: row;
     z-index: 1;
     height: 5rem;
+    position: absolute;
   }
   .menu.open {
     display: flex;

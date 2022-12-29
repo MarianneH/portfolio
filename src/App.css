@@ -8,6 +8,7 @@
   --second-background: #112240;
   --second-color: #f7efe6;
   --third-color: #e5e5f7;
+  --hover_background: rgba(229, 229, 247, 0.1);
   --icon-filter: invert(79%) sepia(30%) saturate(679%) hue-rotate(107deg)
     brightness(109%) contrast(101%);
   /* color bookmarks https://designshack.net/articles/trends/best-website-color-schemes/ */

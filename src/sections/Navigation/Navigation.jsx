@@ -9,50 +9,52 @@ function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav>
-      <div className={styles.container}>
-        <Logo className={styles.logo} />
-        <div
-          className={styles.burger_menu}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {isMenuOpen ? (
-            <MdClose className={styles.burger_logo} />
-          ) : (
-            <FiMenu className={styles.burger_logo} />
-          )}
+    <div className={styles.container}>
+      <nav>
+        <div className={styles.navigation}>
+          <Logo className={styles.logo} />
+          <div
+            className={styles.burger_menu}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? (
+              <MdClose className={styles.burger_logo} />
+            ) : (
+              <FiMenu className={styles.burger_logo} />
+            )}
+          </div>
         </div>
-      </div>
-      <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
-        <ul className={styles.link_list}>
-          <li>
-            <div
-              className={styles.links}
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              Home
-            </div>
-          </li>
-          <li>
-            <div
-              className={styles.links}
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              About
-            </div>
-          </li>
-          <li>
-            <div
-              className={styles.links}
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              Contact
-            </div>
-          </li>
-        </ul>
-        <Button className={styles.button} button_text="Get my Resume" />
-      </div>
-    </nav>
+        <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
+          <ul className={styles.link_list}>
+            <li>
+              <div
+                className={styles.links}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                Home
+              </div>
+            </li>
+            <li>
+              <div
+                className={styles.links}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                About
+              </div>
+            </li>
+            <li>
+              <div
+                className={styles.links}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                Contact
+              </div>
+            </li>
+          </ul>
+          <Button className={styles.button} button_text="Get my Resume" />
+        </div>
+      </nav>
+    </div>
   );
 }
 
