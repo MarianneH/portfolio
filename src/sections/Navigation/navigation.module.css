@@ -1,6 +1,8 @@
 nav {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .menu {
@@ -38,10 +40,12 @@ nav {
   top: 0;
   justify-content: flex-start;
   transform: translateX(110vw);
+  overflow-x: hidden;
   position: absolute;
   background-color: var(--second-background);
   z-index: 1;
   height: 100vh;
+  position: fixed;
 }
 
 .menu.open {

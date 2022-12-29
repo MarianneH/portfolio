@@ -9,4 +9,5 @@
 }
 .credits a {
   color: var(--first-color);
+  margin-bottom: 2rem;
 }
