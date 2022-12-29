@@ -23,3 +23,6 @@
   color: var(--first-color);
   background-color: var(--hover_background);
 }
+.description {
+  padding: 0 0.5rem;
+}
