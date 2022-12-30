@@ -6,7 +6,7 @@ import styles from "./work.module.css";
 export default function Work() {
   return (
     <div>
-      <Headlines headline_text="Work Experience" />
+      <Headlines headline_text="Work Experience" number="03." />
       <WorkExperiences />
     </div>
   );

@@ -5,7 +5,7 @@ import SkillList from "../../components/SkillList/SkillList";
 function About() {
   return (
     <div className={styles.container}>
-      <Headlines headline_text="About" />
+      <Headlines headline_text="About" number="01." />
       <div className={styles.content}>
         <p>
           Hi! I am Marianne Helbig and I enjoy learning and building new things.
