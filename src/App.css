@@ -25,6 +25,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: var(--first-background);
+  letter-spacing: 1px;
 }
 
 h1 {

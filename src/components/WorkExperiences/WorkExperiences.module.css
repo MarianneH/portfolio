@@ -1,13 +1,13 @@
 .exp_container {
   display: flex;
-  flex-direction: row-reverse;
   overflow-x: auto;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 .exp_name {
   min-width: 12rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   text-align: center;
   border-bottom: 1px solid var(--hover_background);
 }
@@ -33,6 +33,41 @@
 .company {
   color: var(--third-color);
 }
-.duration {
+
+.description {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
   color: var(--first-color);
+  margin-right: 0.5rem;
+}
+.text {
+  width: 95%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+  .exp_container {
+    flex-direction: column;
+    min-width: 16rem;
+    border-right: 1px solid var(--hover_background);
+  }
+  .exp_name {
+    min-width: 16rem;
+    padding: 2rem auto;
+    text-align: center;
+    border-right: 1px solid var(--hover_background);
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .selected {
+    border-bottom: none;
+    border-right: 1px solid var(--first-color);
+  }
+  .details {
+    margin-left: 1rem;
+  }
 }

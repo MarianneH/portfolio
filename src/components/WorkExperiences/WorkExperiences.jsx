@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./WorkExperiences.module.css";
 import workexp from "./WorkExp_object.json";
+import { AiFillCaretRight } from "react-icons/ai";
 
 function WorkExperiences() {
   const [experiences, setExperiences] = useState(workexp);
-  const [selected, setSelected] = useState(workexp.length - 1);
-
+  const [selected, setSelected] = useState(0);
   function handleClick(index) {
     setSelected(index);
   }
@@ -35,9 +35,16 @@ function WorkExperiences() {
           </span>
         </h3>
         <p className={styles.duration}>{experiences[selected].duration}</p>
-        <p className={styles.description}>
-          {experiences[selected].description}
-        </p>
+        <div>
+          {experiences[selected].description.map((el, index) => {
+            return (
+              <div key={index} className={styles.description}>
+                <AiFillCaretRight className={styles.icon} />
+                <p className={styles.text}>{el}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
