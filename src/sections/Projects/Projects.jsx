@@ -4,7 +4,7 @@ import Headlines from "../../components/Headlines/Headlines";
 
 export default function Projects() {
   return (
-    <div>
+    <div id="projects">
       <Headlines headline_text="Projects" number="02." />
     </div>
   );
