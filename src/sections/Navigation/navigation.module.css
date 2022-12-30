@@ -4,13 +4,11 @@ nav {
   position: relative;
   overflow-x: hidden;
 }
-
 .menu {
   display: flex;
   justify-content: space-between;
   color: var(--first-color);
 }
-
 .navigation {
   display: flex;
   width: 100vw;
@@ -29,7 +27,6 @@ nav {
   cursor: pointer;
   z-index: 2;
 }
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -53,9 +50,21 @@ nav {
 .link_list {
   list-style: none;
   margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  justify-content: space-around;
 }
 .links {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--third-color);
+  text-decoration: none;
+}
+.number {
+  color: var(--first-color);
 }
 @media (min-width: 768px) {
   nav {

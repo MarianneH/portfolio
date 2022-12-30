@@ -33,7 +33,7 @@ function Navigation() {
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                01. About
+                <span className={styles.number}>01.</span> About
               </a>
             </li>
             <li>
@@ -42,7 +42,7 @@ function Navigation() {
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                02. Projects
+                <span className={styles.number}>02.</span> Projects
               </a>
             </li>
             <li>
@@ -51,7 +51,7 @@ function Navigation() {
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                03. Work Experience
+                <span className={styles.number}>03.</span> Work Experience
               </a>
             </li>
           </ul>

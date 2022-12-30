@@ -26,6 +26,7 @@
   text-decoration: solid;
   color: var(--first-color);
   opacity: 1;
+  font-weight: var(--bold-font);
 }
 
 @media (min-width: 768px) {
