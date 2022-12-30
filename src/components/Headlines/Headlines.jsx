@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./Headlines.module.css";
 
-function Headlines({ headline_text }) {
+function Headlines({ headline_text, number }) {
   return (
     <h2 className={styles.text}>
-      <span>{headline_text}</span>
+      <span>
+        <span className={styles.number}>{number}</span> {headline_text}
+      </span>
     </h2>
   );
 }
