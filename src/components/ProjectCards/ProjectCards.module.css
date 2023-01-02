@@ -1,0 +1,86 @@
+.container {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.image_container {
+  width: 80vw;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: block;
+  position: relative;
+}
+.image_container span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background-color: rgb(100, 255, 218, 0.4);
+  background-position: center;
+}
+.image_container:hover span {
+  display: none;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px var(--second-background);
+  filter: grayscale(100%) contrast(1) brightness(90%);
+  top: 0;
+  left: 0;
+}
+
+.image_container:hover .image {
+  filter: none;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  grid-column: 1 / 13;
+  text-align: right;
+}
+.featured {
+  font-size: 0.8rem;
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+h3 {
+  margin-bottom: 1rem;
+  color: var(--third-color);
+}
+.description {
+  box-shadow: 0 10px 30px -15px var(--first-background);
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  background-color: var(--second-background);
+  display: block;
+}
+.tags {
+  display: flex;
+
+  color: var(--third-color);
+}
+.tags p {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 764px) {
+  .image_container {
+    width: 40vw;
+    height: 40vh;
+  }
+}

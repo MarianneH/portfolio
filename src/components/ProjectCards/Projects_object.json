@@ -11,7 +11,13 @@
     "id": 2,
     "name": "Your Comfort Zone",
     "description": "A website to flee the bad news. Filters The Guardian news served by the NewsCatcherAPI and sprinkles in some fun elements - Nasa's daily image from space, fun fox images, A Dall-E2 integration.",
-    "tags": ["React", "JavaScript", "CSS", "NewsCatcherAPI"],
+    "tags": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "NewsCatcherAPI",
+      "Netlify Serverless Functions"
+    ],
     "github": "https://github.com/MarianneH/your-comfort-zone",
     "url": "https://your-comfort-zone.netlify.app/"
   },
