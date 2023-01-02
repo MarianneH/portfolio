@@ -29,7 +29,7 @@
   letter-spacing: 1px;
   font-weight: var(--thin-font);
   scroll-behavior: smooth;
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 7rem;
 }
 body {
   background-color: var(--first-background);
