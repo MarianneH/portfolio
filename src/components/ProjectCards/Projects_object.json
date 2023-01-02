@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Travel Memory Game",
+    "description": "A remake of the all-time-classic memor game. Product of a 2-day-Hackathon within the 20 week Web-Developer-Programm of Wild Code School.",
+    "tags": ["React", "JavaScript", "CSS"],
+    "github": "https://github.com/MarianneH/Travel-memory-game",
+    "url": "https://travel-memory.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "Your Comfort Zone",
+    "description": "A website to flee the bad news. Filters The Guardian news served by the NewsCatcherAPI and sprinkles in some fun elements - Nasa's daily image from space, fun fox images, A Dall-E2 integration.",
+    "tags": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "NewsCatcherAPI",
+      "Netlify Serverless Functions"
+    ],
+    "github": "https://github.com/MarianneH/your-comfort-zone",
+    "url": "https://your-comfort-zone.netlify.app/"
+  },
+  {
+    "id": 3,
+    "name": "Let's Regroup",
+    "description": "A tool that helps anyone devide a larger group into equally large groups.",
+    "tags": ["React", "JavaScript", "CSS"],
+    "github": "https://github.com/MarianneH/react_grouping_tool",
+    "url": "https://lets-regroup.netlify.app/"
+  }
+]

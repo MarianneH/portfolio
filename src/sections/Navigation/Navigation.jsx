@@ -4,6 +4,7 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";
 import Logo from "../../assets/Logo/Logo";
+import { HashLink } from "react-router-hash-link";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,28 +28,31 @@ function Navigation() {
         <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
           <ul className={styles.link_list}>
             <li>
-              <div
+              <a
+                href="#about"
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                Home
-              </div>
+                <span className={styles.number}>01.</span> About
+              </a>
             </li>
             <li>
-              <div
+              <a
+                href="#projects"
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                About
-              </div>
+                <span className={styles.number}>02.</span> Projects
+              </a>
             </li>
             <li>
-              <div
+              <a
+                href="#work"
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                Contact
-              </div>
+                <span className={styles.number}>03.</span> Work Experience
+              </a>
             </li>
           </ul>
           <Button className={styles.button} button_text="Get my Resume" />

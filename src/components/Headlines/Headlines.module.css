@@ -9,6 +9,8 @@
 
 .text span {
   padding-right: 1rem;
+  background-color: var(--first-background);
+  font-weight: var(--bold-font);
 }
 
 span.number {
