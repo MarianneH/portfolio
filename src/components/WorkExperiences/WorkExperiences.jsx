@@ -29,9 +29,9 @@ function WorkExperiences() {
       </div>
       <div className={styles.details}>
         <h3 className={styles.title}>
-          {experiences[selected].name} @{" "}
+          {experiences[selected].name}{" "}
           <span className={styles.company}>
-            {experiences[selected].company}
+            @ {experiences[selected].company}
           </span>
         </h3>
         <p className={styles.duration}>{experiences[selected].duration}</p>

@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "Let's Regroup",
-    "description": "A tool that helps anyone devide a larger group into equally large groups.",
+    "description": "A tool that helps anyone devide a larger group into equal small groups.",
     "tags": ["React", "JavaScript", "CSS"],
     "github": "https://github.com/MarianneH/react_grouping_tool",
     "url": "https://lets-regroup.netlify.app/"
