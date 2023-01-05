@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Navigation.module.css";
+import styles from "./navigation.module.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";

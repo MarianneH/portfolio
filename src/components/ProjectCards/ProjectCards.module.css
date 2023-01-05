@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 3rem;
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -11,6 +11,7 @@
 }
 .headline {
   align-self: flex-end;
+  text-align: right;
 }
 .featured {
   font-size: 0.8rem;
@@ -73,12 +74,27 @@ h3 {
   padding: 1rem;
   width: 90vw;
   background-color: var(--second-background);
+  margin-top: 1rem;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.icons svg {
+  color: var(--third-color);
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 0.5rem;
+}
+.icons svg:hover {
+  color: var(--first-color);
 }
 .tags {
   display: flex;
   justify-content: center;
   color: var(--third-color);
   flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 .tags p {
   margin: 0.25rem 1rem;
@@ -93,6 +109,7 @@ h3 {
   }
   .left .headline {
     align-self: flex-start;
+    text-align: left;
   }
   .infos {
     grid-row: 1;
@@ -107,8 +124,15 @@ h3 {
   .description {
     width: 40vw;
   }
+  .left .icons {
+    justify-content: flex-start;
+  }
+
   .tags {
     justify-content: flex-end;
+  }
+  .left .tags {
+    justify-content: flex-start;
   }
   .image_container {
     width: 45vw;

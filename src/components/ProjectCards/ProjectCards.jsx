@@ -4,6 +4,8 @@ import projectsJson from "./Projects_object.json";
 import travel from "../../assets/projects/travel_memory.png";
 import regroup from "../../assets/projects/lets_regroup.png";
 import comfort from "../../assets/projects/your_comfort_zone.png";
+import { HiOutlineExternalLink } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
 
 function ProjectCard() {
   const [projects, setProjects] = useState(projectsJson);
@@ -32,7 +34,17 @@ function ProjectCard() {
                 <span></span>
               </div>
               <div className={styles.infos}>
-                <p className={styles.description}>{el.description}</p>
+                <div className={styles.description}>
+                  <p>{el.description}</p>
+                  <div className={styles.icons}>
+                    <a href={el.url} target="_blank" rel="noreferrer">
+                      <HiOutlineExternalLink />
+                    </a>
+                    <a href={el.github} target="_blank" rel="noreferrer">
+                      <FaGithub />
+                    </a>
+                  </div>
+                </div>
                 <div className={styles.tags}>
                   {el.tags.map((elem, index2) => {
                     return <p key={index2}>{elem}</p>;
