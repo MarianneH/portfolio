@@ -4,7 +4,6 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";
 import Logo from "../../assets/Logo/Logo";
-import { HashLink } from "react-router-hash-link";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +32,7 @@ function Navigation() {
                 className={styles.links}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                <span className={styles.number}>01.</span> About
+                <span className={styles.number}>01.</span>About
               </a>
             </li>
             <li>
