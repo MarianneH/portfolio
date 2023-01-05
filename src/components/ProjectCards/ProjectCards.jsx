@@ -12,46 +12,32 @@ function ProjectCard() {
     <div className={styles.container}>
       {projects.map((el, index) => {
         return (
-          <div key={index} className={styles.card}>
-            <div
-              className={
-                !(index % 2)
-                  ? `${styles.headline}`
-                  : `${styles.headline} ${styles.left}`
-              }
-            >
+          <div
+            key={index}
+            className={
+              !(index % 2) ? `${styles.card}` : `${styles.card} ${styles.left}`
+            }
+          >
+            <div className={styles.headline}>
               <div className={styles.featured}>featured project</div>
               <h3>{el.name}</h3>
             </div>
-
-            <div
-              className={
-                !(index % 2)
-                  ? `${styles.image_container}`
-                  : `${styles.image_container} ${styles.left}`
-              }
-            >
-              <img src={images[index]} alt={el.name} className={styles.image} />
-              <span></span>
-            </div>
-            <div
-              className={
-                !(index % 2)
-                  ? `${styles.infos}`
-                  : `${styles.infos} ${styles.left}`
-              }
-            >
-              <p className={styles.description}>{el.description}</p>
-              <div
-                className={
-                  !(index % 2)
-                    ? `${styles.tags}`
-                    : `${styles.tags} ${styles.left}`
-                }
-              >
-                {el.tags.map((elem, index2) => {
-                  return <p key={index2}>{elem}</p>;
-                })}
+            <div className={styles.content}>
+              <div className={styles.image_container}>
+                <img
+                  src={images[index]}
+                  alt={el.name}
+                  className={styles.image}
+                />
+                <span></span>
+              </div>
+              <div className={styles.infos}>
+                <p className={styles.description}>{el.description}</p>
+                <div className={styles.tags}>
+                  {el.tags.map((elem, index2) => {
+                    return <p key={index2}>{elem}</p>;
+                  })}
+                </div>
               </div>
             </div>
           </div>

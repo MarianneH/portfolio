@@ -9,6 +9,22 @@
   align-items: center;
   margin-bottom: 3rem;
 }
+.headline {
+  align-self: flex-end;
+}
+.featured {
+  font-size: 0.8rem;
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+h3 {
+  color: var(--third-color);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .image_container {
   width: 90vw;
   height: auto;
@@ -26,14 +42,13 @@
   right: 0;
   width: 100%;
   height: 100%;
-  z-index: 4;
+  z-index: 1;
   background-color: rgb(100, 255, 218, 0.4);
   background-position: center;
 }
 .image_container:hover span {
   display: none;
 }
-
 .image {
   width: 100%;
   height: auto;
@@ -42,26 +57,15 @@
   top: 0;
   left: 0;
 }
-
 .image_container:hover .image {
   filter: none;
 }
 .infos {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
-.headline {
-  align-self: flex-start;
-}
-.featured {
-  font-size: 0.8rem;
-  color: var(--first-color);
-  margin-bottom: 0.5rem;
-}
-h3 {
-  color: var(--third-color);
-}
+
 .description {
   box-shadow: 0 10px 30px -15px var(--first-background);
   position: relative;
@@ -72,64 +76,46 @@ h3 {
 }
 .tags {
   display: flex;
+  justify-content: center;
   color: var(--third-color);
   flex-wrap: wrap;
 }
 .tags p {
-  margin: auto 1rem;
+  margin: 0.25rem 1rem;
   background-color: var(--second-background);
+  z-index: 2;
 }
-
-@media screen and (min-width: 764px) {
-  .card {
+@media (min-width: 768px) {
+  .content {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    width: 80vw;
+    grid-template-columns: repeat(12, calc(80vw / 12));
   }
-  .image_container {
-    width: 40vw;
-    grid-area: 0 / 6;
-  }
-  .image_container.left {
-    grid-area: 6 / -1;
-    grid-row: 1;
-  }
-
-  .headline {
-    grid-column: 7 / -1;
-    grid-row: 1;
-    text-align: right;
-  }
-  .headline.left {
-    grid-column: -1 / 1;
-    text-align: left;
-    grid-row: 1;
+  .left .headline {
+    align-self: flex-start;
   }
   .infos {
-    grid-column: 5/ -1;
-    text-align: right;
     grid-row: 1;
+    grid-column: 7 / span 4;
+    align-items: flex-end;
+    width: 40vw;
   }
-
-  .infos.left {
-    grid-column: 1 /-1;
-    text-align: left;
-    grid-row: 1;
-    display: block;
+  .left .infos {
+    grid-column: 1 / span 4;
+    align-items: flex-end;
   }
   .description {
     width: 40vw;
   }
   .tags {
-    width: 50vw;
     justify-content: flex-end;
   }
-  .tags.left {
-    text-align: left;
-    justify-content: flex-start;
-    grid-column: 1 /-1;
+  .image_container {
+    width: 45vw;
+    grid-row: 1;
+    grid-column: 1 / span 3;
   }
-  .tags p {
-    margin: auto 1rem;
-    background-color: var(--second-background);
+  .left .image_container {
+    grid-column: 6 / span 3;
   }
 }
