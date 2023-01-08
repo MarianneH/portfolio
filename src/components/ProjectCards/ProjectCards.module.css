@@ -66,7 +66,6 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-
 .description {
   box-shadow: 0 10px 30px -15px var(--first-background);
   position: relative;
@@ -104,8 +103,8 @@ h3 {
 @media (min-width: 768px) {
   .content {
     display: grid;
-    width: 80vw;
-    grid-template-columns: repeat(12, calc(80vw / 12));
+    width: 100%;
+    grid-template-columns: repeat(12, calc(100% / 12));
   }
   .left .headline {
     align-self: flex-start;
@@ -113,13 +112,12 @@ h3 {
   }
   .infos {
     grid-row: 1;
-    grid-column: 7 / span 4;
+    grid-column: 9 / span 4;
     align-items: flex-end;
-    width: 40vw;
   }
   .left .infos {
-    grid-column: 1 / span 4;
-    align-items: flex-end;
+    grid-column: 1 / span 6;
+    align-items: flex-start;
   }
   .description {
     width: 40vw;
@@ -138,8 +136,10 @@ h3 {
     width: 45vw;
     grid-row: 1;
     grid-column: 1 / span 3;
+    justify-self: flex-start;
   }
   .left .image_container {
-    grid-column: 6 / span 3;
+    grid-column: 10 / span 3;
+    justify-self: flex-end;
   }
 }
