@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./navigation.module.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
@@ -9,7 +9,13 @@ function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      // {
+      //   scroll ? `${styles.container}` : `${styles.container} ${styles.shadow}`
+      // }
+      // onScroll={handleScroll}
+    >
       <nav>
         <div className={styles.navigation}>
           <Logo className={styles.logo} />

@@ -1,8 +1,12 @@
 .container {
   position: fixed;
   width: 100vw;
-  background-color: var(--first-background);
+  background-color: var(--nav-background);
+  backdrop-filter: blur(10px);
   z-index: 5;
+}
+.shadow {
+  box-shadow: 0 10px 30px -10px;
 }
 nav {
   display: flex;
