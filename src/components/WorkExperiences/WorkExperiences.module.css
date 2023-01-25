@@ -70,6 +70,7 @@
   .selected {
     border-bottom: none;
     border-right: 1px solid var(--first-color);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   .details {
     margin-left: 1rem;
