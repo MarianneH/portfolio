@@ -9,7 +9,8 @@ function About() {
       <div className={styles.content}>
         <p>
           Hi! I am Marianne Helbig and I enjoy learning and building new things.
-          I am currently enrolled in the a 20 week Web Developer Program at the{" "}
+          From September 2022 - February 2023 I was enrolled in the the 20 week
+          Web Developer Program at the{" "}
           <a
             className="highlight"
             href="https://www.wildcodeschool.com/en-GB"
@@ -18,10 +19,12 @@ function About() {
           >
             Wild Code School
           </a>{" "}
-          and will finish the course mid February 2023.
+          and I'm now on the look out for my first full-time position as a web
+          developer.
         </p>
         <p>
-          Previously I've been working as a Senior Product Manager at{" "}
+          Previously I've been working as a <span>Senior Product Manager</span>{" "}
+          at{" "}
           <a
             className="highlight"
             href="https://www.misterspex.de/"
