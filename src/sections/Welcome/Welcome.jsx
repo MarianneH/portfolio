@@ -12,7 +12,7 @@ function Welcome() {
         </h2>
       </div>
 
-      <Button button_text="Get in touch!" />
+      <Button button_text="Get in touch!" icon="mail" />
     </div>
   );
 }

@@ -6,3 +6,6 @@
 .content {
   padding: 0 0.5rem;
 }
+.content span {
+  text-decoration: underline;
+}

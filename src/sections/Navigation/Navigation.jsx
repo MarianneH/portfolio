@@ -9,13 +9,7 @@ function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div
-      className={styles.container}
-      // {
-      //   scroll ? `${styles.container}` : `${styles.container} ${styles.shadow}`
-      // }
-      // onScroll={handleScroll}
-    >
+    <div className={styles.container}>
       <nav>
         <div className={styles.navigation}>
           <Logo className={styles.logo} />
@@ -60,7 +54,11 @@ function Navigation() {
               </a>
             </li>
           </ul>
-          <Button className={styles.button} button_text="Get my Resume" />
+          <Button
+            className={styles.button}
+            button_text="Get my Resume"
+            icon="download"
+          />
         </div>
       </nav>
     </div>

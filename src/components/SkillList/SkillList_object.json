@@ -13,18 +13,26 @@
   },
   {
     "id": 4,
-    "name": "NodeJS"
-  },
-  {
-    "id": 5,
     "name": "NextJS"
   },
   {
+    "id": 5,
+    "name": "TypeScript"
+  },
+  {
     "id": 6,
-    "name": "MySQL"
+    "name": "Storybook"
   },
   {
     "id": 7,
+    "name": "NodeJS"
+  },
+  {
+    "id": 8,
+    "name": "MySQL"
+  },
+  {
+    "id": 9,
     "name": "Firebase"
   }
 ]

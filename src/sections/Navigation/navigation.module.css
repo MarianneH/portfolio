@@ -93,7 +93,7 @@ nav {
     display: flex;
     flex-direction: row;
     height: 4rem;
-    background-color: var(--first-background);
+    background: none;
     transform: translateX(0vw);
     z-index: 4;
   }
