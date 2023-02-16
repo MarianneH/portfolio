@@ -1,4 +1,5 @@
 import Button from "../../components/Button/Button";
+import Headlines from "../../components/Headlines/Headlines";
 import styles from "./Outro.module.css";
 
 function Outro() {
@@ -8,8 +9,8 @@ function Outro() {
   }
   return (
     <div className={styles.container}>
-      <h3>and now?</h3>
-      <h2>Get in touch</h2>
+      <Headlines headline_text="What now?" number="04." />
+      <h2>Get in touch.</h2>
       <p>
         Currently I'm actively looking for my first web developer position and
         I'm also happy to connect regardless. Please reach out, if that sounds
