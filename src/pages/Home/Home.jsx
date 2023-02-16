@@ -3,6 +3,7 @@ import About from "../../sections/About/About";
 import Projects from "../../sections/Projects/Projects";
 import Welcome from "../../sections/Welcome/Welcome";
 import Work from "../../sections/Work/Work";
+import Outro from "../../sections/Outro/Outro";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <About />
         <Projects />
         <Work />
+        <Outro />
       </div>
     </div>
   );

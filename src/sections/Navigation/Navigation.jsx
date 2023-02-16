@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./navigation.module.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";
 import Logo from "../../assets/Logo/Logo";
+import Socials from "../../components/Socials/Socials";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,6 +60,9 @@ function Navigation() {
             button_text="Get my Resume"
             icon="download"
           />
+          <div className={styles.socials}>
+            <Socials />
+          </div>
         </div>
       </nav>
     </div>

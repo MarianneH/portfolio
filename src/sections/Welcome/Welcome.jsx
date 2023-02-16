@@ -2,6 +2,10 @@ import Button from "../../components/Button/Button";
 import styles from "./welcome.module.css";
 
 function Welcome() {
+  function handleEmailClick(e) {
+    e.preventDefault();
+    window.location.href = "mailto:marianne.helbig@googlemail.com";
+  }
   return (
     <div className={styles.container}>
       <div className={styles.welcome_text}>
@@ -12,7 +16,11 @@ function Welcome() {
         </h2>
       </div>
 
-      <Button button_text="Get in touch!" icon="mail" />
+      <Button
+        button_text="Get in touch!"
+        icon="mail"
+        handleEmailClick={handleEmailClick}
+      />
     </div>
   );
 }
