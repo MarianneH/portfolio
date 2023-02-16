@@ -5,44 +5,43 @@
     "company": "Wildcode School Germany",
     "duration": "09/2022 - 02/2023",
     "description": [
-      "Hi ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Alias sequi doloribus delectus recusandae accusamus sapiente commodi possimus molestiae iste cum optio sunt reprehenderit animi dolor quae sit, voluptates incidunt adipisci.",
-      "Explicabo, illo, aliquid quidem excepturi dolores expedita cumque fugiat omnis incidunt repellendus, rem unde natus id ratione beatae!",
-      "Rem ducimus eos aliquam maiores velit veritatis tempora natus error explicabo facere? Voluptatibus laudantium recusandae quaerat iusto omnis totam debitis officia hic itaque ea sed asperiores, culpa enim veritatis eos? Enim suscipit recusandae excepturi nulla nemo, praesentium voluptatibus nam illum porro quasi?"
+      "Co-created five projects using different technologies: Appointment Booking App, Car Rental App, Memory Game, News Website, Recipe Website",
+      "Technologies learned and applied: HTML, CSS, React, NextJS, Storybook, Git, Github, Express, NodeJS, MySQL, Firebase",
+      "Appointment Booking App developed and designed as a client project"
     ]
   },
   {
     "id": 3,
     "name": "Senior Product Manager",
     "company": "Mister Spex SE",
-    "duration": "06/2016 - 08/2021",
+    "duration": "11/2019 - 08/2022",
     "description": [
-      "Was geht ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Alias sequi doloribus delectus recusandae accusamus sapiente commodi possimus molestiae iste cum optio sunt reprehenderit animi dolor quae sit, voluptates incidunt adipisci.",
-      "Explicabo, illo, aliquid quidem excepturi dolores expedita cumque fugiat omnis incidunt repellendus, rem unde natus id ratione beatae! Rem ducimus eos aliquam maiores velit veritatis tempora natus error explicabo facere? Voluptatibus laudantium recusandae quaerat iusto omnis totam debitis officia hic itaque ea sed asperiores, culpa enim veritatis eos? Enim suscipit recusandae excepturi nulla nemo, praesentium voluptatibus nam illum porro quasi?"
+      "+15% click-through-rate leading to +3% CVR through modernised and optimized homepage",
+      "Product Manager of two cross-functional Scrum teams - Product Configuration Team and Marketing Tech Team - during refactoring & redesign of webshop",
+      "Lead product discovery & design, collect requirements, stakeholder management, prioritization of product backlogs, ensuring product delivery in a timely manner of homepage and product detail pages for glasses and sunglasses as well as glass options pages"
     ]
   },
   {
     "id": 2,
     "name": "Product Manager",
     "company": "Mister Spex SE",
-    "duration": "06/2016 - 08/2021",
+    "duration": "08/2016 - 11/2019",
     "description": [
-      "Blödmann ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Alias sequi doloribus delectus recusandae accusamus sapiente commodi possimus molestiae iste cum optio sunt reprehenderit animi dolor quae sit, voluptates incidunt adipisci.",
-      "Explicabo, illo, aliquid quidem excepturi dolores expedita cumque fugiat omnis incidunt repellendus, rem unde natus id ratione beatae! Rem ducimus eos aliquam maiores velit veritatis tempora natus error explicabo facere? Voluptatibus laudantium recusandae quaerat iusto omnis totam debitis officia hic itaque ea sed asperiores, culpa enim veritatis eos? Enim suscipit recusandae excepturi nulla nemo, praesentium voluptatibus nam illum porro quasi?"
+      "+5% CM2 p.a. for glasses category through improvements of mobile customer journey, +3,5% CM2 p.a. with virtual try-on, +3% CM2 p.a. launching customer own frame",
+      "Led product discovery and roadmap development, aligning priorities with company goals and stakeholders",
+      "Implemented data-driven decision-making processes to continuously improve product performance and customer satisfaction",
+      "Analyzed and monitored product performance through key metrics and reports, providing insights and recommendations for improvement"
     ]
   },
   {
     "id": 1,
     "name": "Technical SEO Manager",
     "company": "Mister Spex SE",
-    "duration": "06/2016 - 08/2021",
+    "duration": "10/2015 - 08/2016",
     "description": [
-      "Hallo ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Alias sequi doloribus delectus recusandae accusamus sapiente commodi possimus molestiae iste cum optio sunt reprehenderit animi dolor quae sit, voluptates incidunt adipisci.",
-      "Explicabo, illo, aliquid quidem excepturi dolores expedita cumque fugiat omnis incidunt repellendus, rem unde natus id ratione beatae! Rem ducimus eos aliquam maiores velit veritatis tempora natus error explicabo facere?",
-      "Voluptatibus laudantium recusandae quaerat iusto omnis totam debitis officia hic itaque ea sed asperiores, culpa enim veritatis eos? Enim suscipit recusandae excepturi nulla nemo, praesentium voluptatibus nam illum porro quasi?"
+      "Served as single point of contact for technical SEO matters throughout the company",
+      "Monitored and managed SEO performance in all markets using VBA-automated reports",
+      "Led continuous improvement efforts for SEO company-wide"
     ]
   }
 ]
