@@ -1,10 +1,10 @@
 .text {
   width: 100%;
   text-align: left;
-  border-bottom: 1px solid var(--first-color);
+  border-bottom: 1px solid var(--primary-color);
   line-height: 0.1em;
   margin-bottom: 3rem;
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 .text span {
@@ -14,7 +14,7 @@
 }
 
 span.number {
-  color: var(--first-color);
+  color: var(--primary-color);
   font-weight: 100;
   padding: 0;
   margin: 0;

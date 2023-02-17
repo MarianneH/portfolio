@@ -54,6 +54,15 @@ function Navigation() {
                 <span className={styles.number}>03.</span> Work Experience
               </a>
             </li>
+            <li>
+              <a
+                href="#contact"
+                className={styles.links}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                <span className={styles.number}>04.</span> Contact
+              </a>
+            </li>
           </ul>
           <Button
             className={styles.button}

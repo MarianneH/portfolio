@@ -14,20 +14,20 @@
   min-width: 12rem;
   padding: 1rem 2rem;
   text-align: center;
-  border-bottom: 1px solid var(--hover_background);
+  border-bottom: 1px solid var(--hover-background);
   cursor: pointer;
 }
 
 .exp_name:hover {
-  background-color: var(--hover_background);
+  background-color: var(--hover-background);
   transition: background-color 0.3s;
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 
 .selected {
-  border-bottom: 1px solid var(--first-color);
-  color: var(--first-color);
-  background-color: var(--hover_background);
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--hover-background);
 }
 
 .details {
@@ -37,7 +37,7 @@
   margin-bottom: 1rem;
 }
 .company {
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 
 .description {
@@ -45,7 +45,7 @@
   flex-direction: row;
 }
 .icon {
-  color: var(--first-color);
+  color: var(--primary-color);
   margin-right: 0.5rem;
 }
 .text {
@@ -62,19 +62,19 @@
   .exp_container {
     flex-direction: column;
     min-width: 16rem;
-    border-right: 1px solid var(--hover_background);
+    border-right: 1px solid var(--hover-background);
   }
   .exp_name {
     min-width: 16rem;
     padding: 2rem auto;
     text-align: center;
-    border-right: 1px solid var(--hover_background);
+    border-right: 1px solid var(--hover-background);
     border-bottom: none;
     margin-bottom: 0;
   }
   .selected {
     border-bottom: none;
-    border-right: 1px solid var(--first-color);
+    border-right: 1px solid var(--primary-color);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   .details {

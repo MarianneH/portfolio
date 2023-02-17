@@ -8,7 +8,7 @@ function Outro() {
     window.location.href = "mailto:marianne.helbig@googlemail.com";
   }
   return (
-    <div className={styles.container}>
+    <div id="contact" className={styles.container}>
       <Headlines headline_text="What now?" number="04." />
       <h2>Get in touch.</h2>
       <p>

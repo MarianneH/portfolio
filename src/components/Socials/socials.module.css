@@ -5,7 +5,7 @@
   left: auto;
   right: 1.5rem;
   z-index: 10;
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 .next {
   display: flex;
@@ -21,14 +21,14 @@
   width: 1px;
   height: 6rem;
   margin: 0px auto;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
 }
 
 .socials {
   height: 1rem;
   width: 1rem;
   margin: 1rem;
-  color: var(--first-color);
+  color: var(--primary-color);
   cursor: pointer;
 }
 @media (max-width: 768px) {
