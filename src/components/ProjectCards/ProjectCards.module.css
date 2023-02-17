@@ -13,7 +13,7 @@
   align-items: center;
   margin-bottom: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid var(--devider-color);
 }
 .headline {
   align-self: flex-end;
@@ -21,11 +21,11 @@
 }
 .featured {
   font-size: 0.8rem;
-  color: var(--first-color);
+  color: var(--primary-color);
   margin-bottom: 0.5rem;
 }
 h3 {
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 .content {
   display: flex;
@@ -87,18 +87,18 @@ h3 {
   justify-content: flex-end;
 }
 .icons svg {
-  color: var(--third-color);
+  color: var(--secondary-color);
   height: 1.5rem;
   width: 1.5rem;
   margin: 0 0.5rem;
 }
 .icons svg:hover {
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 .tags {
   display: flex;
   justify-content: center;
-  color: var(--third-color);
+  color: var(--secondary-color);
   flex-wrap: wrap;
   margin-top: 0.5rem;
 }

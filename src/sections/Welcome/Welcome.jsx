@@ -1,5 +1,6 @@
 import Button from "../../components/Button/Button";
 import styles from "./welcome.module.css";
+import Typewriter from "typewriter-effect";
 
 function Welcome() {
   function handleEmailClick(e) {
@@ -11,9 +12,22 @@ function Welcome() {
       <div className={styles.welcome_text}>
         <p className={styles.salutation}>Hi there &#128075;, my name is</p>
         <h1 className={styles.name}>Marianne Helbig.</h1>
-        <h2 className={styles.main_tag}>
-          I'm a <span>Junior Web Developer</span> building things for the web.
-        </h2>
+        <div className={styles.main_container}>
+          <h2 className={styles.main_tag}>
+            I'm a <span className={styles.highlight}>Junior Web Developer</span>{" "}
+            <Typewriter
+              options={{
+                strings: [
+                  "building things for the web.",
+                  "based in Berlin.",
+                  "open to work.",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
+        </div>
       </div>
 
       <Button
