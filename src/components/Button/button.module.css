@@ -9,11 +9,12 @@
   justify-content: space-between;
   cursor: pointer;
 }
-.button::after {
-  background-color: var(--highlighter);
-}
+
 .button:hover {
   box-shadow: 2px 2px 1px var(--primary-color);
+  text-decoration: underline;
+  text-decoration-color: var(--highlighter);
+  text-decoration-thickness: 3px;
 }
 .button:active {
   background-color: rgba(255, 255, 255, 0.1);

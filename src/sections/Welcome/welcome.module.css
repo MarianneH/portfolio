@@ -16,6 +16,9 @@
   font-size: 2rem;
   color: var(--secondary-color);
   margin-bottom: 1rem;
+  text-decoration: underline;
+  text-decoration-color: var(--highlighter);
+  text-decoration-thickness: 3px;
 }
 .main_container {
   height: 5rem;
