@@ -1,4 +1,4 @@
-import styles from "./Button.module.css";
+import styles from "./Buttons.module.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
 
