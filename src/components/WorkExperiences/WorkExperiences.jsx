@@ -4,7 +4,7 @@ import workexp from "./WorkExp_object.json";
 import { AiFillCaretRight } from "react-icons/ai";
 
 function WorkExperiences() {
-  const [experiences, setExperiences] = useState(workexp);
+  const [experiences] = useState(workexp);
   const [selected, setSelected] = useState(0);
   function handleClick(index) {
     setSelected(index);
