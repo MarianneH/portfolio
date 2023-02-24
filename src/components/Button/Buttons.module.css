@@ -9,7 +9,6 @@
   justify-content: space-between;
   cursor: pointer;
 }
-
 .button:hover {
   box-shadow: 2px 2px 1px var(--primary-color);
   text-decoration: underline;
