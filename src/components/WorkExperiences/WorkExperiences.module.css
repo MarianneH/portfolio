@@ -16,6 +16,9 @@
   text-align: center;
   border-bottom: 1px solid var(--hover-background);
   cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--highlighter);
+  text-decoration-thickness: 3px;
 }
 
 .exp_name:hover {
