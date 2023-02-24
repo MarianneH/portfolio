@@ -39,9 +39,7 @@
   text-decoration-color: var(--highlighter);
   text-decoration-thickness: 3px;
 }
-/* .jobtitle {
-  background-color: var(--highlighter);
-} */
+
 .company {
   color: var(--primary-color);
 }
