@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./ProjectCards.module.css";
 import projectsJson from "./Projects_object.json";
 import travel from "../../assets/projects/travel_memory.png";
@@ -9,11 +9,10 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectCard() {
-  const [projects, setProjects] = useState(projectsJson);
-  const [images, setImages] = useState([appointment, travel, comfort, regroup]);
+  const images = [appointment, travel, comfort, regroup];
   return (
     <div className={styles.container}>
-      {projects.map((el, index) => {
+      {projectsJson.map((el, index) => {
         return (
           <div
             key={index}

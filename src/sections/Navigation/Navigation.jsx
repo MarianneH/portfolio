@@ -5,6 +5,13 @@ import { FiMenu } from "react-icons/fi";
 import Button from "../../components/Button/Button";
 import Logo from "../../assets/Logo/Logo";
 import Socials from "../../components/Socials/Socials";
+import NavLink from "./NavLink";
+const links = [
+  { href: "#about", number: "01.", name: "About" },
+  { href: "#projects", number: "02.", name: "Projects" },
+  { href: "#work", number: "03.", name: "Work Experience" },
+  { href: "#contact", number: "04.", name: "Contact" },
+];
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,42 +34,16 @@ function Navigation() {
         </div>
         <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
           <ul className={styles.link_list}>
-            <li>
-              <a
-                href="#about"
-                className={styles.links}
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <span className={styles.number}>01.</span>About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#projects"
-                className={styles.links}
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <span className={styles.number}>02.</span> Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="#work"
-                className={styles.links}
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <span className={styles.number}>03.</span> Work Experience
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className={styles.links}
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <span className={styles.number}>04.</span> Contact
-              </a>
-            </li>
+            {links.map((el, id) => {
+              return (
+                <NavLink
+                  key={id}
+                  data={el}
+                  setIsMenuOpen={setIsMenuOpen}
+                  isMenuOpen={isMenuOpen}
+                />
+              );
+            })}
           </ul>
           <Button
             className={styles.button}

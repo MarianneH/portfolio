@@ -8,9 +8,10 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  box-shadow: 2px 2px 1px var(--primary-color);
 }
 .button:hover {
-  box-shadow: 2px 2px 1px var(--primary-color);
+  box-shadow: 3px 3px 1px var(--primary-color);
   text-decoration: underline;
   text-decoration-color: var(--highlighter);
   text-decoration-thickness: 3px;
