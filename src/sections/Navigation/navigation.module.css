@@ -74,6 +74,7 @@ nav {
   color: var(--secondary-color);
   text-decoration: none;
   cursor: pointer;
+  background-color: var(--highlighter);
 }
 .number {
   color: var(--primary-color);

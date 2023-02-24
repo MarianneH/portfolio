@@ -5,11 +5,12 @@
   line-height: 0.1em;
   margin-bottom: 3rem;
   color: var(--secondary-color);
+  background-color: var(--highlighter);
 }
 
 .text span {
   padding-right: 1rem;
-  background-color: var(--first-background);
+  background-color: var(--highlighter);
   font-weight: var(--bold-font);
 }
 
