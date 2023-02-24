@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./ProjectCards.module.css";
 import projectsJson from "./Projects_object.json";
 import travel from "../../assets/projects/travel_memory.png";

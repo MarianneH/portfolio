@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./WorkExperiences.module.css";
-import workexp from "./WorkExp_object.json";
+import workExperiences from "./WorkExp_object.json";
 import { AiFillCaretRight } from "react-icons/ai";
 
 function WorkExperiences() {
@@ -9,7 +9,7 @@ function WorkExperiences() {
   return (
     <div className={styles.container}>
       <div className={styles.exp_container}>
-        {workexp.map((el, index) => {
+        {workExperiences.map((el, index) => {
           return (
             <p
               key={index}
@@ -25,12 +25,14 @@ function WorkExperiences() {
       </div>
       <div className={styles.details}>
         <h3 className={styles.title}>
-          {workexp[selected].name}{" "}
-          <span className={styles.company}>@ {workexp[selected].company}</span>
+          {workExperiences[selected].name}{" "}
+          <span className={styles.company}>
+            @ {workExperiences[selected].company}
+          </span>
         </h3>
-        <p className={styles.duration}>{workexp[selected].duration}</p>
+        <p className={styles.duration}>{workExperiences[selected].duration}</p>
         <div>
-          {workexp[selected].description.map((el, index) => {
+          {workExperiences[selected].description.map((el, index) => {
             return (
               <div key={index} className={styles.description}>
                 <AiFillCaretRight className={styles.icon} />
