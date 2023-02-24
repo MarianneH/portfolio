@@ -1,7 +1,7 @@
 :root {
   --base-font: "Roboto", sans-serif;
-  --bold-font: 500;
-  --thin-font: 200;
+  --bold-font: 400;
+  --thin-font: 400;
   --background-color: #ffffff;
   --primary-color: #141414;
   --secondary-color: rgb(0, 0, 0);
