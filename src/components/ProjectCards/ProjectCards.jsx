@@ -9,11 +9,10 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectCard() {
-  const [projects, setProjects] = useState(projectsJson);
-  const [images, setImages] = useState([appointment, travel, comfort, regroup]);
+  const images = [appointment, travel, comfort, regroup];
   return (
     <div className={styles.container}>
-      {projects.map((el, index) => {
+      {projectsJson.map((el, index) => {
         return (
           <div
             key={index}
