@@ -1,6 +1,5 @@
 .icon {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0);
-  filter: var(--icon-filter);
   transform: translateY(-5px);
 }

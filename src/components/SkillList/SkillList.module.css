@@ -12,4 +12,7 @@
 
 .skill {
   margin-bottom: 0.1rem;
+  text-decoration: underline;
+  text-decoration-color: var(--highlighter);
+  text-decoration-thickness: 3px;
 }
