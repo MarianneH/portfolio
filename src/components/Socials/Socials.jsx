@@ -13,6 +13,7 @@ export default function Socials() {
           rel="noopener noreferrer"
         >
           <FaLinkedinIn className={styles.socials} />
+          <span className={styles.visible_hidden}>LinkedIn</span>
         </a>
         <a
           href="https://github.com/MarianneH"
@@ -20,9 +21,11 @@ export default function Socials() {
           rel="noopener noreferrer"
         >
           <FaGithub className={styles.socials} />
+          <span className={styles.visible_hidden}>GitHub</span>
         </a>
         <a href="mailto:marianne.helbig@googlemail.com">
           <AiOutlineMail className={styles.socials} />
+          <span className={styles.visible_hidden}>Email</span>
         </a>
       </span>
     </div>

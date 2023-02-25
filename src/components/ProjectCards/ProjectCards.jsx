@@ -40,10 +40,12 @@ function ProjectCard() {
                     {el.url && (
                       <a href={el.url} target="_blank" rel="noreferrer">
                         <HiOutlineExternalLink />
+                        <span className={styles.visible_hidden}>Website</span>
                       </a>
                     )}
                     <a href={el.github} target="_blank" rel="noreferrer">
                       <FaGithub />
+                      <span className={styles.visible_hidden}>GitHub</span>
                     </a>
                   </div>
                 </div>

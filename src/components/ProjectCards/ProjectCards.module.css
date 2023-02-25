@@ -89,6 +89,21 @@
   width: 1.5rem;
   margin: 0 0.5rem;
 }
+.visible_hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.visible_hidden:focus {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
+}
 .tags {
   display: flex;
   justify-content: center;
