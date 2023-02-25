@@ -14,9 +14,6 @@
 }
 
 /* grey: #F2F2F2 */
-.highlight {
-  color: var(--primary-color);
-}
 
 * {
   font-family: var(--base-font);
@@ -25,6 +22,7 @@
   box-sizing: border-box;
   letter-spacing: 1px;
   font-weight: var(--base-font-weight);
+  color: var(--primary-color);
   scroll-behavior: smooth;
   scroll-margin-top: 7rem;
 }
@@ -34,26 +32,18 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-weight: var(--base-font-weight);
-  color: var(--primary-color);
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: var(--base-font-weight);
-  color: var(--primary-color);
 }
 
 h3 {
   font-size: 1.4rem;
-  color: var(--primary-color);
-  font-weight: var(--base-font-weight);
 }
 
 p {
   font-size: 1rem;
-  color: var(--secondary-color);
   margin-bottom: 1rem;
   line-height: 1.4;
-  font-weight: var(--base-font-weight);
 }

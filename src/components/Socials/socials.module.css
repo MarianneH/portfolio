@@ -5,7 +5,6 @@
   left: auto;
   right: 1.5rem;
   z-index: 10;
-  color: var(--primary-color);
 }
 .next {
   display: flex;
@@ -29,7 +28,6 @@
   height: 1rem;
   width: 1rem;
   margin: 1rem;
-  color: var(--primary-color);
   cursor: pointer;
 }
 @media (max-width: 768px) {

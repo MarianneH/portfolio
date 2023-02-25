@@ -4,18 +4,15 @@
   border-bottom: 1px solid var(--primary-color);
   line-height: 0.1em;
   margin-bottom: 3rem;
-  color: var(--secondary-color);
   background-color: var(--highlighter);
 }
 
 .text span {
   padding-right: 1rem;
   background-color: var(--highlighter);
-  font-weight: var(--base-font-weight);
 }
 
 span.number {
-  color: var(--primary-color);
   padding: 0;
   margin: 0;
   font-size: 1.2rem;

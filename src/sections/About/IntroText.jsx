@@ -8,7 +8,6 @@ function IntroText() {
         From September 2022 - February 2023 I was enrolled in the the 20 week
         Web Developer Program at the{" "}
         <a
-          className="highlight"
           href="https://www.wildcodeschool.com/en-GB"
           target="_blank"
           rel="noreferrer"
@@ -20,12 +19,7 @@ function IntroText() {
       </p>
       <p>
         Previously I've been working as a <span>Senior Product Manager</span> at{" "}
-        <a
-          className="highlight"
-          href="https://www.misterspex.de/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.misterspex.de/" target="_blank" rel="noreferrer">
           Mister Spex
         </a>{" "}
         and am now seeking the opportunity to switch careers. I am a supportive

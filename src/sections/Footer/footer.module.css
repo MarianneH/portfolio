@@ -1,13 +1,11 @@
 .credits {
   font-size: 0.7rem;
   opacity: 0.6;
-  color: var(--secondary-color);
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 .credits a {
-  color: var(--primary-color);
   margin-bottom: 2rem;
 }
