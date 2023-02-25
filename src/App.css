@@ -2,15 +2,12 @@
   --base-font: "Roboto", sans-serif;
   --base-font-weight: 400;
   --primary-color: #141414;
-  --secondary-color: rgb(0, 0, 0);
   --first-background: rgb(236, 236, 236);
   --second-background: rgb(223, 223, 223);
   --nav-background: rgba(236, 236, 236, 0.85);
   --highlighter: #ffff00;
   --hover-background: rgba(0, 0, 0, 0.05);
   --devider-color: rgba(0, 0, 0, 0.4);
-  --icon-filter: invert(79%) sepia(30%) saturate(679%) hue-rotate(107deg)
-    brightness(109%) contrast(101%);
 }
 
 /* grey: #F2F2F2 */
