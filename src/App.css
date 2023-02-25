@@ -1,8 +1,6 @@
 :root {
   --base-font: "Roboto", sans-serif;
-  --bold-font: 400;
-  --thin-font: 400;
-  --background-color: #ffffff;
+  --base-font-weight: 400;
   --primary-color: #141414;
   --secondary-color: rgb(0, 0, 0);
   --first-background: rgb(236, 236, 236);
@@ -14,6 +12,8 @@
   --icon-filter: invert(79%) sepia(30%) saturate(679%) hue-rotate(107deg)
     brightness(109%) contrast(101%);
 }
+
+/* grey: #F2F2F2 */
 .highlight {
   color: var(--primary-color);
 }
@@ -24,7 +24,7 @@
   margin: 0;
   box-sizing: border-box;
   letter-spacing: 1px;
-  font-weight: var(--thin-font);
+  font-weight: var(--base-font-weight);
   scroll-behavior: smooth;
   scroll-margin-top: 7rem;
 }
@@ -34,20 +34,20 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-weight: var(--bold-font);
+  font-weight: var(--base-font-weight);
   color: var(--primary-color);
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: var(--bold-font);
+  font-weight: var(--base-font-weight);
   color: var(--primary-color);
 }
 
 h3 {
   font-size: 1.4rem;
   color: var(--primary-color);
-  font-weight: var(--bold-font);
+  font-weight: var(--base-font-weight);
 }
 
 p {
@@ -55,5 +55,5 @@ p {
   color: var(--secondary-color);
   margin-bottom: 1rem;
   line-height: 1.4;
-  font-weight: var(--thin-font);
+  font-weight: var(--base-font-weight);
 }

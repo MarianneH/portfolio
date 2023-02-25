@@ -12,9 +12,9 @@ function Outro() {
       <Headlines headline_text="What now?" number="04." />
       <h2>Get in touch.</h2>
       <p>
-        Currently I'm actively looking for my first web developer position and
-        I'm also happy to connect regardless. Please reach out, if that sounds
-        good to you.
+        I am currently in search of my first web developer position and would be
+        delighted to connect with you regardless. Please do not hesitate to
+        reach out if this sounds appealing to you.
       </p>
       <Button
         button_text="Say hi!"

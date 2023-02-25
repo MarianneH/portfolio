@@ -11,7 +11,7 @@
 .text span {
   padding-right: 1rem;
   background-color: var(--highlighter);
-  font-weight: var(--bold-font);
+  font-weight: var(--base-font-weight);
 }
 
 span.number {

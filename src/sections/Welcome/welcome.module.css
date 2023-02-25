@@ -33,7 +33,7 @@
   text-decoration: solid;
   color: var(--primary-color);
   opacity: 1;
-  font-weight: var(--bold-font);
+  font-weight: var(--base-font-weight);
   background-color: var(--highlighter);
 }
 .main_tag div {
