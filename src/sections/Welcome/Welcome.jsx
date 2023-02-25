@@ -33,7 +33,7 @@ function Welcome() {
       <Button
         button_text="Get in touch!"
         icon="mail"
-        handleEmailClick={handleEmailClick}
+        handleClick={handleEmailClick}
       />
     </div>
   );

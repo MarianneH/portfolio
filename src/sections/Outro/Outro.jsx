@@ -19,7 +19,7 @@ function Outro() {
       <Button
         button_text="Say hi!"
         icon="mail"
-        handleEmailClick={handleEmailClick}
+        handleClick={handleEmailClick}
       />
     </div>
   );
