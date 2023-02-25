@@ -6,6 +6,8 @@ import Button from "../../components/Button/Button";
 import Logo from "../../assets/Logo/Logo";
 import Socials from "../../components/Socials/Socials";
 import NavLink from "./NavLink";
+import { handleDownloadFileClick } from "./handleDownloadFileClick";
+
 const links = [
   { href: "#about", number: "01.", name: "About" },
   { href: "#projects", number: "02.", name: "Projects" },
@@ -49,6 +51,7 @@ function Navigation() {
             className={styles.button}
             button_text="Get my Resume"
             icon="download"
+            handleClick={handleDownloadFileClick}
           />
           <div className={styles.socials}>
             <Socials />
