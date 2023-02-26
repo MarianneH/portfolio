@@ -1,0 +1,36 @@
+.container {
+  background-color: var(--second-background);
+  padding: 1.5rem;
+  box-shadow: 2px 2px 1px var(--highlighter);
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.folder {
+  font-size: 2rem;
+  color: var(--highlighter);
+}
+.project_details h3 {
+  text-decoration: underline;
+  text-decoration-color: var(--highlighter);
+  text-decoration-thickness: 3px;
+  margin-bottom: 1rem;
+}
+.visible_hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.visible_hidden:focus {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
+}
