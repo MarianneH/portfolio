@@ -19,8 +19,8 @@ function Welcome() {
               options={{
                 strings: [
                   "building things for the web.",
+                  "and former product manager.",
                   "based in Berlin.",
-                  "open to work.",
                 ],
                 autoStart: true,
                 loop: true,
