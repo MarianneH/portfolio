@@ -52,11 +52,6 @@ function ProjectCard() {
                   </div>
                 </div>
                 <Tags tags={el.tags} />
-                {/* <div className={styles.tags}>
-                  {el.tags.map((elem, index2) => {
-                    return <p key={index2}>{elem}</p>;
-                  })}
-                </div> */}
               </div>
             </div>
           </div>

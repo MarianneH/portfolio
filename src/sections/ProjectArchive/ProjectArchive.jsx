@@ -1,7 +1,12 @@
 import React from "react";
+import ProjectArchiveCards from "../../components/ProjectArchiveCards/ProjectArchiveCards";
 
 function ProjectArchive() {
-  return <div>ProjectArchive</div>;
+  return (
+    <div>
+      <ProjectArchiveCards archive={[]} />
+    </div>
+  );
 }
 
 export default ProjectArchive;

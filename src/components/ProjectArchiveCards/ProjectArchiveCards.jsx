@@ -1,14 +1,18 @@
 import React from "react";
+import Tags from "../Tags/Tags";
 import styles from "./ProjectArchiveCards.module.css";
+import { SlFolder } from "react-icons/sl";
 
-function ProjectArchiveCards() {
+function ProjectArchiveCards({ archived }) {
   return (
     <div>
-      <div className={styles.upper}></div>
+      <div className={styles.upper}>
+        <SlFolder />
+      </div>
       <div className={styles.project_details}>
         <h3></h3>
         <p></p>
-        <div className={styles.tags}></div>
+        <Tags tags={[]} />
       </div>
     </div>
   );
