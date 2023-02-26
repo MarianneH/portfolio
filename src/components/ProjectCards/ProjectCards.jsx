@@ -8,6 +8,7 @@ import appointment from "../../assets/projects/appointment_app.png";
 import deliveryFee from "../../assets/projects/wolt_delivery_fee_calculator.png";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
+import Tags from "../Tags/Tags";
 
 function ProjectCard() {
   const images = [appointment, deliveryFee, travel, comfort, regroup];
@@ -50,11 +51,12 @@ function ProjectCard() {
                     </a>
                   </div>
                 </div>
-                <div className={styles.tags}>
+                <Tags tags={el.tags} />
+                {/* <div className={styles.tags}>
                   {el.tags.map((elem, index2) => {
                     return <p key={index2}>{elem}</p>;
                   })}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
