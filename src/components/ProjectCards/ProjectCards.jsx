@@ -5,11 +5,12 @@ import travel from "../../assets/projects/travel_memory.png";
 import regroup from "../../assets/projects/lets_regroup.png";
 import comfort from "../../assets/projects/your_comfort_zone.png";
 import appointment from "../../assets/projects/appointment_app.png";
+import deliveryFee from "../../assets/projects/wolt_delivery_fee_calculator.png";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectCard() {
-  const images = [appointment, travel, comfort, regroup];
+  const images = [appointment, deliveryFee, travel, comfort, regroup];
   return (
     <div className={styles.container}>
       {projectsJson.map((el, index) => {

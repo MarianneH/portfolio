@@ -3,23 +3,30 @@
     "id": 1,
     "name": "Appointment Booking App",
     "description": "Co-created a web-based appointment booking application with two team members, allowing users to easily book appointments with salons. Built using Next.js, Storybook, Firebase, and Typescript, the app includes features for salon owners to configure their store, services, and employees, as well as the ability to create, modify, and delete appointments for both account holders and walk-ins. Completed within a 6-week timeframe during a 20-week bootcamp.",
-    "tags": ["NextJS", "TypeScript", "Storybook"],
+    "tags": ["NextJS", "TypeScript", "Storybook", "Firebase"],
     "github": "https://github.com/Ormuma-Appointment/OrmumaAppointments"
   },
   {
     "id": 2,
+    "name": "Wolt Deliver Fee App",
+    "description": "Wolt was looking for their next summer intern and as part of their application process they asked each applicant to build this app. While I was not selected for the position, I am grateful for the opportunity to have participated and gained experience with TypeScript, Styled Components, and automated testing using testing library while building the tool. Throughout the project, I also sought guidance from experienced developers, who taught me valuable skills. Overall, I am proud of the little tool I created as part of the application process.",
+    "tags": ["ReactJS", "TypeScript", "Styled Components", "Automated Tests"],
+    "github": "https://github.com/MarianneH/wolt-summer-intern"
+  },
+  {
+    "id": 3,
     "name": "Travel Memory Game",
     "description": "This is a new twist on an all-time favorite - the memory game! This project was created during a 24-hour hackathon as part of the Wild Code School's 20-week Web Developer Program. Using React, JavaScript, and CSS, my team and me have built a modern version of the classic game. Go ahead and test your memory and problem-solving skills with this fun and challenging project.",
-    "tags": ["React", "JavaScript", "CSS"],
+    "tags": ["ReactJS", "JavaScript", "CSS"],
     "github": "https://github.com/MarianneH/Travel-memory-game",
     "url": "https://travel-memory.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Your Comfort Zone",
     "description": "Escape the bad news with our refreshing news website. Built using React and several APIs, this project from the Wild Code School's 20-week Web Developer Program brings you news from The Guardian filtered through the NewsCatcherAPI, as well as daily images from space, fun fox images, and a Dall-E2 integration for a bit of whimsy. Stay informed and bring a smile to your face with our positive take on current events.",
     "tags": [
-      "React",
+      "ReactJS",
       "JavaScript",
       "CSS",
       "NewsCatcherAPI",
@@ -29,7 +36,7 @@
     "url": "https://your-comfort-zone.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Let's Regroup",
     "description": "Need to divide a group into smaller, equal subgroups? Let's Regroup is here to help. This tool, built with React, JavaScript, and CSS, makes it easy to split your team, classmates, or friends into evenly sized groups. Use it to organize team building activities or divide up tasks. Give Let's Regroup a try and see how it can simplify your group organization process.",
     "tags": ["React", "JavaScript", "CSS"],
