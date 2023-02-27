@@ -14,7 +14,7 @@ function ProjectCard() {
   const images = [appointment, deliveryFee, travel, comfort, regroup];
   return (
     <div className={styles.container}>
-      {projectsJson.map((el, index) => {
+      {projectsJson.slice(0, 3).map((el, index) => {
         return (
           <div
             key={index}

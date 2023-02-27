@@ -5,10 +5,12 @@ import styles from "./ProjectArchive.module.css";
 
 function ProjectArchive() {
   return (
-    <div className={styles.container}>
-      {projects.slice(3).map((el, id) => {
-        return <ProjectArchiveCards archived={el} />;
-      })}
+    <div>
+      <div className={styles.card_container}>
+        {projects.slice(3).map((el, id) => {
+          return <ProjectArchiveCards archived={el} />;
+        })}
+      </div>
     </div>
   );
 }

@@ -18,6 +18,10 @@
   text-decoration-thickness: 3px;
   margin-bottom: 1rem;
 }
+.project_details p {
+  text-align: justify;
+}
+
 .visible_hidden {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -33,4 +37,10 @@
   overflow: auto;
   position: absolute;
   width: auto;
+}
+
+@media screen and (min-width: 760px) {
+  /* .container {
+    grid-column: 1;
+  } */
 }
