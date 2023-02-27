@@ -9,13 +9,15 @@ function ProjectArchive() {
     <div className={styles.container}>
       <FadeIn>
         <p>view the archive</p>
-        <h2>More Noteworthy Projects</h2>
+        <h2>More Noteworthy Projects</h2>{" "}
       </FadeIn>
-      <div className={styles.card_container}>
-        {projects.slice(3).map((el, id) => {
-          return <ProjectArchiveCards archived={el} />;
-        })}
-      </div>
+      <FadeIn>
+        <div className={styles.card_container}>
+          {projects.slice(3).map((el, id) => {
+            return <ProjectArchiveCards archived={el} />;
+          })}
+        </div>
+      </FadeIn>
     </div>
   );
 }
