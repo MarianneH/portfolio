@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
-import styles from "./FadeIn.module.css";
+import "./FadeIn.css";
 
 const FadeIn = ({ children, direction }) => {
   const ref = useRef();
@@ -14,7 +14,7 @@ const FadeIn = ({ children, direction }) => {
         }
       },
       {
-        rootMargin: "2rem",
+        rootMargin: "0px",
       }
     );
 
@@ -26,10 +26,7 @@ const FadeIn = ({ children, direction }) => {
   }, []);
 
   return (
-    <div
-      className={`${styles.fade_in_container} ${styles.fade}_${direction}`}
-      ref={ref}
-    >
+    <div className={`fade_in_container`} ref={ref}>
       {children}
     </div>
   );
@@ -46,7 +43,7 @@ FadeIn.propTypes = {
 };
 
 FadeIn.defaultProps = {
-  direction: "from_left",
+  direction: "from_bottom",
 };
 
 export default FadeIn;

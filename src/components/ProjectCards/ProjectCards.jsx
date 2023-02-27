@@ -9,6 +9,7 @@ import deliveryFee from "../../assets/projects/wolt_delivery_fee_calculator.png"
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import Tags from "../Tags/Tags";
+import FadeIn from "../FadeIn/FadeIn";
 
 function ProjectCard() {
   const images = [appointment, deliveryFee, travel, comfort, regroup];
@@ -22,38 +23,40 @@ function ProjectCard() {
               !(index % 2) ? `${styles.card}` : `${styles.card} ${styles.left}`
             }
           >
-            <div className={styles.headline}>
-              <div className={styles.featured}>featured project</div>
-              <h3>{el.name}</h3>
-            </div>
-            <div className={styles.content}>
-              <div className={styles.image_container}>
-                <img
-                  src={images[index]}
-                  alt={el.name}
-                  className={styles.image}
-                />
-                <span></span>
+            <FadeIn>
+              <div className={styles.headline}>
+                <div className={styles.featured}>featured project</div>
+                <h3>{el.name}</h3>
               </div>
-              <div className={styles.infos}>
-                <div className={styles.description}>
-                  <p>{el.description}</p>
-                  <div className={styles.icons}>
-                    {el.url && (
-                      <a href={el.url} target="_blank" rel="noreferrer">
-                        <HiOutlineExternalLink />
-                        <span className={styles.visible_hidden}>Website</span>
-                      </a>
-                    )}
-                    <a href={el.github} target="_blank" rel="noreferrer">
-                      <FaGithub />
-                      <span className={styles.visible_hidden}>GitHub</span>
-                    </a>
-                  </div>
+              <div className={styles.content}>
+                <div className={styles.image_container}>
+                  <img
+                    src={images[index]}
+                    alt={el.name}
+                    className={styles.image}
+                  />
+                  <span></span>
                 </div>
-                <Tags tags={el.tags} />
+                <div className={styles.infos}>
+                  <div className={styles.description}>
+                    <p>{el.description}</p>
+                    <div className={styles.icons}>
+                      {el.url && (
+                        <a href={el.url} target="_blank" rel="noreferrer">
+                          <HiOutlineExternalLink />
+                          <span className={styles.visible_hidden}>Website</span>
+                        </a>
+                      )}
+                      <a href={el.github} target="_blank" rel="noreferrer">
+                        <FaGithub />
+                        <span className={styles.visible_hidden}>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                  <Tags tags={el.tags} />
+                </div>
               </div>
-            </div>
+            </FadeIn>
           </div>
         );
       })}
