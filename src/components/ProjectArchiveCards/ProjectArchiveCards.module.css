@@ -6,11 +6,16 @@
 .upper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
 }
 .folder {
   font-size: 2rem;
   color: var(--highlighter);
+}
+.icon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
 .project_details h3 {
   text-decoration: underline;
@@ -37,10 +42,4 @@
   overflow: auto;
   position: absolute;
   width: auto;
-}
-
-@media screen and (min-width: 760px) {
-  /* .container {
-    grid-column: 1;
-  } */
 }
