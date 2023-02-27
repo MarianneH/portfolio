@@ -18,8 +18,8 @@ function Welcome() {
             <Typewriter
               options={{
                 strings: [
-                  "building things for the web.",
-                  "and former product manager.",
+                  "open to work.",
+                  "and former Product Manager.",
                   "based in Berlin.",
                 ],
                 autoStart: true,

@@ -1,0 +1,12 @@
+.fade_in_container {
+  opacity: 0;
+  position: relative;
+  top: 60px;
+}
+
+.fade_in {
+  opacity: 1;
+  top: 0;
+  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1),
+    top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
