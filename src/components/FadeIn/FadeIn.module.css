@@ -1,0 +1,24 @@
+.fade_in_container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade_in {
+  opacity: 1;
+}
+
+.fade_from_left.fade_in_container {
+  transform: translateX(-20px);
+}
+
+.fade_from_right.fade_in_container {
+  transform: translateX(20px);
+}
+
+.fade_from_top.fade_in_container {
+  transform: translateY(-20px);
+}
+
+.fade_from_bottom.fade_in_container {
+  transform: translateY(20px);
+}
