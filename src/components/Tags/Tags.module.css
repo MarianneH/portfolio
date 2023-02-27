@@ -1,0 +1,13 @@
+.tags {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.tags p {
+  margin: 0.25rem 1rem;
+  padding: 0.2rem;
+  background-color: var(--highlighter);
+  z-index: 2;
+}

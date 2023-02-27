@@ -4,6 +4,7 @@ import Projects from "../../sections/Projects/Projects";
 import Welcome from "../../sections/Welcome/Welcome";
 import Work from "../../sections/Work/Work";
 import Outro from "../../sections/Outro/Outro";
+import ProjectArchive from "../../sections/ProjectArchive/ProjectArchive";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Welcome />
         <About />
         <Projects />
+        <ProjectArchive />
         <Work />
         <Outro />
       </div>

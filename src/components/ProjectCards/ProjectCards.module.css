@@ -104,18 +104,6 @@
   position: absolute;
   width: auto;
 }
-.tags {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-.tags p {
-  margin: 0.25rem 1rem;
-  padding: 0.2rem;
-  background-color: var(--highlighter);
-  z-index: 2;
-}
 @media (min-width: 768px) {
   .content {
     display: grid;
@@ -139,13 +127,6 @@
     width: 40vw;
   }
   .left .icons {
-    justify-content: flex-start;
-  }
-
-  .tags {
-    justify-content: flex-end;
-  }
-  .left .tags {
     justify-content: flex-start;
   }
   .image_container {
