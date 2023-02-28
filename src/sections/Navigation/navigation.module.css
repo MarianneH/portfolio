@@ -91,7 +91,7 @@ nav {
   text-decoration-thickness: 3px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 840px) {
   nav {
     height: 4rem;
     flex-direction: row;
