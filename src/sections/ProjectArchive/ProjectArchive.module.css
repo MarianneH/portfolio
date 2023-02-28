@@ -22,6 +22,12 @@
 @media screen and (min-width: 760px) {
   .card_container {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card_container {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
