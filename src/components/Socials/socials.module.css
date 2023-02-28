@@ -1,10 +1,12 @@
 .container {
   width: 1.5rem;
   position: fixed;
-  bottom: 0;
   left: auto;
   right: 1.5rem;
   z-index: 10;
+  opacity: 0;
+  animation: nav-load 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-delay: 0.8s;
 }
 .next {
   display: flex;
@@ -65,5 +67,16 @@
     height: 1.5rem;
     width: 1.5rem;
     margin: 1.5rem;
+  }
+}
+
+@keyframes nav-load {
+  0% {
+    bottom: 60px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
   }
 }
