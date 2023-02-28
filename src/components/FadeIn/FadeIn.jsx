@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
 import "./FadeIn.css";
 
 const FadeIn = ({ children, direction }) => {
@@ -30,20 +29,6 @@ const FadeIn = ({ children, direction }) => {
       {children}
     </div>
   );
-};
-
-FadeIn.propTypes = {
-  children: PropTypes.node.isRequired,
-  direction: PropTypes.oneOf([
-    "from_left",
-    "from_right",
-    "from_top",
-    "from_bottom",
-  ]),
-};
-
-FadeIn.defaultProps = {
-  direction: "from_bottom",
 };
 
 export default FadeIn;

@@ -11,7 +11,9 @@ function Outro() {
   return (
     <div id="contact" className={styles.container}>
       <FadeIn>
-        <Headlines headline_text="What now?" number="04." />
+        <Headlines headline_text="What now?" number="04." />{" "}
+      </FadeIn>
+      <FadeIn>
         <h2>Get in touch.</h2>
         <p>
           I am currently in search of my first web developer position and would

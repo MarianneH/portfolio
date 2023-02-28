@@ -9,6 +9,8 @@ export default function Work() {
     <div id="work" className={styles.container}>
       <FadeIn>
         <Headlines headline_text="Work Experience" number="03." />
+      </FadeIn>
+      <FadeIn>
         <WorkExperiences />
       </FadeIn>
     </div>
