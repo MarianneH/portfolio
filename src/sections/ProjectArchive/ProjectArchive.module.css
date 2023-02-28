@@ -1,5 +1,6 @@
 .container {
   text-align: center;
+  margin-bottom: 6rem;
 }
 .container > p {
   font-size: 0.8rem;

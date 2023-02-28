@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   min-height: 27rem;
 }
 
@@ -54,12 +54,13 @@
     display: flex;
     max-width: 50rem;
     margin: 0 auto;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .exp_container {
     flex-direction: column;
     min-width: 16rem;
     border-right: 1px solid var(--hover-background);
+    overflow: hidden;
   }
   .exp_name {
     min-width: 16rem;
