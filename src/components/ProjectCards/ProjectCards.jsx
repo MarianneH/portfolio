@@ -28,6 +28,8 @@ function ProjectCard() {
                 <div className={styles.featured}>featured project</div>
                 <h3>{el.name}</h3>
               </div>
+            </FadeIn>
+            <FadeIn>
               <div className={styles.content}>
                 <div className={styles.image_container}>
                   <img
