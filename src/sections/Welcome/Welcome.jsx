@@ -29,7 +29,6 @@ function Welcome() {
           </h2>
         </div>
       </div>
-
       <Button
         button_text="Get in touch!"
         icon="mail"
