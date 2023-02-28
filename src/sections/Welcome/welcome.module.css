@@ -4,6 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
+  opacity: 0;
+  animation: nav-load 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-delay: 0.5s;
 }
 .welcome_text {
   margin-bottom: 2rem;
@@ -37,6 +41,7 @@
 @media (min-width: 768px) {
   .container {
     width: 100%;
+    animation-delay: 0.7s;
   }
   .welcome_text {
     margin-bottom: 2rem;
@@ -49,5 +54,16 @@
   }
   .main_tag {
     font-size: 3rem;
+  }
+}
+
+@keyframes nav-load {
+  0% {
+    bottom: 60px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
   }
 }

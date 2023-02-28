@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./FadeIn.css";
 
-const FadeIn = ({ children, direction }) => {
+const FadeIn = ({ children }) => {
   const ref = useRef();
 
   useEffect(() => {
