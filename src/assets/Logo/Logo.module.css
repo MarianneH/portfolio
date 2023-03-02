@@ -1,7 +1,6 @@
 .icon {
-  height: 3rem;
+  height: 2.5rem;
   background-color: rgba(0, 0, 0, 0);
-  transform: translateY(-5px);
   position: relative;
   opacity: 0;
   animation: nav-load 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
